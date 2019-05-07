@@ -3,6 +3,7 @@
 
 #include "stdint.h"
 
+
 #define AcceMax     2048 
 #define AcceGravity 9.80f
 /*************WGS84地心坐标参考系数**************/

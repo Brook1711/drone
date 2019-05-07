@@ -1,5 +1,5 @@
 .\objects\mpu6050_mk1.o: sensorlib\mpu6050_MK1.c
-.\objects\mpu6050_mk1.o: sensorlib\mpu6050_MK1.h
+.\objects\mpu6050_mk1.o: .\USR\Filter.h
 .\objects\mpu6050_mk1.o: .\USR\main.h
 .\objects\mpu6050_mk1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\mpu6050_mk1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
@@ -24,8 +24,8 @@
 .\objects\mpu6050_mk1.o: ..\drone_MK1\inc/hw_sysctl.h
 .\objects\mpu6050_mk1.o: ..\drone_MK1\driverlib/debug.h
 .\objects\mpu6050_mk1.o: .\USR\Filter.h
-.\objects\mpu6050_mk1.o: .\USR\main.h
 .\objects\mpu6050_mk1.o: .\USR\data_type.h
 .\objects\mpu6050_mk1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\mpu6050_mk1.o: .\USR\math_MK1.h
 .\objects\mpu6050_mk1.o: .\USR\myiic.h
+.\objects\mpu6050_mk1.o: sensorlib\mpu6050_MK1.h

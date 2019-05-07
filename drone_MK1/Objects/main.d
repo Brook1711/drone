@@ -27,3 +27,5 @@
 .\objects\main.o: USR\data_type.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\main.o: USR\math_MK1.h
+.\objects\main.o: .\sensorlib\mpu6050_MK1.h
+.\objects\main.o: .\USR\myiic.h

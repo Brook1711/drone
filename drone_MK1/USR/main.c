@@ -1,4 +1,8 @@
 #include "main.h"
+#include "mpu6050_MK1.h"
+
+Sensor my_sensor_data; //G所有的传感器数据都存在这个结构体里
+
 int main(void)
 {
   system_init();
@@ -34,6 +38,12 @@ void system_init(void)
 	GPIOPinTypeI2C(GPIO_PORTA_BASE, GPIO_PIN_7); 
 	I2CMasterInitExpClk(I2C1_BASE, SysCtlClockGet(), true); //初始化主从
 	I2CMasterEnable(I2C1_BASE);
+	
+	//G以下尝试初始化和使用MPU6050
+	Init_MPU6050();//G初始化MPU6050模块
+
+	
+	
 	return ;
 }
 
@@ -41,10 +51,19 @@ void schedule_task(void)
 {
 	ROM_GPIOPinWrite(GPIO_PORTF_BASE,GPIO_PIN_2, GPIO_PIN_2);
 //	ROM_SysCtlDelay(SysCtlClockGet()/12);
-	delay(10000);
+	delay(10);
 	ROM_GPIOPinWrite(GPIO_PORTF_BASE,GPIO_PIN_2, 0);
 //	ROM_SysCtlDelay(SysCtlClockGet()/12);
-	delay(1000);
-
+	delay(10);
+	
+	//G尝试在任务调度函数里
+	MPU6050_Read_Data(&my_sensor_data.gyro_raw, &my_sensor_data.accel_raw);//G从MPU6050直接读取数据
+	LCD_CLS();//GLCD清零
+	write_6_8_number(0, 0, my_sensor_data.gyro_raw.x);//G从MPU6050直接读取数据
+	write_6_8_number(0, 2, my_sensor_data.gyro_raw.y);
+	write_6_8_number(0, 4, my_sensor_data.gyro_raw.z);
+	write_6_8_number(20, 0, my_sensor_data.accel_raw.x);
+	write_6_8_number(20, 2, my_sensor_data.accel_raw.y);
+	write_6_8_number(20, 4, my_sensor_data.accel_raw.z);
 	return ;
 }

@@ -1,6 +1,6 @@
 Dependencies for Project 'drone_MK1', Target 'Target 1': (DO NOT MODIFY !)
-F (.\USR\main.c)(0x5CCE9D3E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\USR -I .\inc -I .\driverlib -I .\sensorlib -I ..\drone_MK1 -I .\USR -I .\utils -I .\utils --c99-I F:\电设\飞控源码\drone\drone_MK1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="518" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (USR\main.h)(0x5CD14DF8)
+F (.\USR\main.c)(0x5CD18AF7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\USR -I .\inc -I .\driverlib -I .\sensorlib -I ..\drone_MK1 -I .\USR -I .\utils -I .\utils --c99-I F:\电设\飞控源码\drone\drone_MK1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="518" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (USR\main.h)(0x5CD18230)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -26,9 +26,11 @@ I (..\drone_MK1\driverlib/debug.h)(0x5CCBD2F7)
 I (USR\Filter.h)(0x5CD14B63)
 I (USR\data_type.h)(0x5CD14AEB)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x569DEA3A)
-I (USR\math_MK1.h)(0x5C46C3F4)
+I (USR\math_MK1.h)(0x5CD181EB)
+I (.\sensorlib\mpu6050_MK1.h)(0x5CD181FA)
+I (.\USR\myiic.h)(0x5CD14768)
 F (.\USR\oled.c)(0x5CCC1DBA)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\USR -I .\inc -I .\driverlib -I .\sensorlib -I ..\drone_MK1 -I .\USR -I .\utils -I .\utils --c99-I F:\电设\飞控源码\drone\drone_MK1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="518" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
-I (USR\main.h)(0x5CD14DF8)
+I (USR\main.h)(0x5CD18230)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -54,7 +56,7 @@ I (..\drone_MK1\driverlib/debug.h)(0x5CCBD2F7)
 I (USR\Filter.h)(0x5CD14B63)
 I (USR\data_type.h)(0x5CD14AEB)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x569DEA3A)
-I (USR\math_MK1.h)(0x5C46C3F4)
+I (USR\math_MK1.h)(0x5CD181EB)
 I (USR\oledfont.h)(0x5CCC1A89)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
 F (.\USR\Time.c)(0x5C2D9F46)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\USR -I .\inc -I .\driverlib -I .\sensorlib -I ..\drone_MK1 -I .\USR -I .\utils -I .\utils --c99-I F:\电设\飞控源码\drone\drone_MK1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="518" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\objects\time.o --omf_browse .\objects\time.crf --depend .\objects\time.d)
@@ -80,7 +82,7 @@ I (.\driverlib\pin_map.h)(0x5CCBD2F7)
 I (.\driverlib\sysctl.h)(0x5CCBD2F7)
 F (.\USR\Filter.c)(0x5CD14B6A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\USR -I .\inc -I .\driverlib -I .\sensorlib -I ..\drone_MK1 -I .\USR -I .\utils -I .\utils --c99-I F:\电设\飞控源码\drone\drone_MK1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="518" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\objects\filter.o --omf_browse .\objects\filter.crf --depend .\objects\filter.d)
 I (USR\Filter.h)(0x5CD14B63)
-I (USR\main.h)(0x5CD14DF8)
+I (USR\main.h)(0x5CD18230)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -105,9 +107,9 @@ I (..\drone_MK1\inc/hw_sysctl.h)(0x5CCBD30B)
 I (..\drone_MK1\driverlib/debug.h)(0x5CCBD2F7)
 I (USR\data_type.h)(0x5CD14AEB)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x569DEA3A)
-I (USR\math_MK1.h)(0x5C46C3F4)
+I (USR\math_MK1.h)(0x5CD181EB)
 F (.\USR\math_MK1.c)(0x5CD14B1E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\USR -I .\inc -I .\driverlib -I .\sensorlib -I ..\drone_MK1 -I .\USR -I .\utils -I .\utils --c99-I F:\电设\飞控源码\drone\drone_MK1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="518" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\objects\math_mk1.o --omf_browse .\objects\math_mk1.crf --depend .\objects\math_mk1.d)
-I (USR\main.h)(0x5CD14DF8)
+I (USR\main.h)(0x5CD18230)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -133,7 +135,7 @@ I (..\drone_MK1\driverlib/debug.h)(0x5CCBD2F7)
 I (USR\Filter.h)(0x5CD14B63)
 I (USR\data_type.h)(0x5CD14AEB)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x569DEA3A)
-I (USR\math_MK1.h)(0x5C46C3F4)
+I (USR\math_MK1.h)(0x5CD181EB)
 F (.\driverlib\rvmdk\driverlib.lib)(0x5CCBD2F7)()
 F (.\driverlib\gpio.c)(0x5CCBD2F7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\USR -I .\inc -I .\driverlib -I .\sensorlib -I ..\drone_MK1 -I .\USR -I .\utils -I .\utils --c99-I F:\电设\飞控源码\drone\drone_MK1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="518" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
@@ -477,7 +479,7 @@ I (..\drone_MK1\driverlib/rom.h)(0x5CCBD2F7)
 I (..\drone_MK1\driverlib/rom_map.h)(0x5CCBD2F7)
 I (..\drone_MK1\sensorlib/bmp180.h)(0x5CCBD30B)
 F (.\sensorlib\ssd1306.c)(0x5CCC20DA)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\USR -I .\inc -I .\driverlib -I .\sensorlib -I ..\drone_MK1 -I .\USR -I .\utils -I .\utils --c99-I F:\电设\飞控源码\drone\drone_MK1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="518" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\objects\ssd1306.o --omf_browse .\objects\ssd1306.crf --depend .\objects\ssd1306.d)
-I (.\USR\main.h)(0x5CD14DF8)
+I (.\USR\main.h)(0x5CD18230)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -503,7 +505,7 @@ I (..\drone_MK1\driverlib/debug.h)(0x5CCBD2F7)
 I (.\USR\Filter.h)(0x5CD14B63)
 I (.\USR\data_type.h)(0x5CD14AEB)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x569DEA3A)
-I (.\USR\math_MK1.h)(0x5C46C3F4)
+I (.\USR\math_MK1.h)(0x5CD181EB)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
 I (.\inc\binary.h)(0x56742638)
@@ -538,9 +540,9 @@ I (..\drone_MK1\inc/hw_sysctl.h)(0x5CCBD30B)
 I (..\drone_MK1\driverlib/interrupt.h)(0x5CCBD2F7)
 I (..\drone_MK1\driverlib/rom.h)(0x5CCBD2F7)
 I (..\drone_MK1\driverlib/rom_map.h)(0x5CCBD2F7)
-F (.\sensorlib\mpu6050_MK1.c)(0x5CD14D17)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\USR -I .\inc -I .\driverlib -I .\sensorlib -I ..\drone_MK1 -I .\USR -I .\utils -I .\utils --c99-I F:\电设\飞控源码\drone\drone_MK1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="518" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\objects\mpu6050_mk1.o --omf_browse .\objects\mpu6050_mk1.crf --depend .\objects\mpu6050_mk1.d)
-I (sensorlib\mpu6050_MK1.h)(0x5CD14CE3)
-I (.\USR\main.h)(0x5CD14DF8)
+F (.\sensorlib\mpu6050_MK1.c)(0x5CD181EB)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\USR -I .\inc -I .\driverlib -I .\sensorlib -I ..\drone_MK1 -I .\USR -I .\utils -I .\utils --c99-I F:\电设\飞控源码\drone\drone_MK1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="518" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\objects\mpu6050_mk1.o --omf_browse .\objects\mpu6050_mk1.crf --depend .\objects\mpu6050_mk1.d)
+I (.\USR\Filter.h)(0x5CD14B63)
+I (.\USR\main.h)(0x5CD18230)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -563,11 +565,11 @@ I (..\drone_MK1\inc/hw_i2c.h)(0x5CCBD30B)
 I (..\drone_MK1\inc/hw_ints.h)(0x5CCBD30B)
 I (..\drone_MK1\inc/hw_sysctl.h)(0x5CCBD30B)
 I (..\drone_MK1\driverlib/debug.h)(0x5CCBD2F7)
-I (.\USR\Filter.h)(0x5CD14B63)
 I (.\USR\data_type.h)(0x5CD14AEB)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x569DEA3A)
-I (.\USR\math_MK1.h)(0x5C46C3F4)
+I (.\USR\math_MK1.h)(0x5CD181EB)
 I (.\USR\myiic.h)(0x5CD14768)
+I (sensorlib\mpu6050_MK1.h)(0x5CD181FA)
 F (.\inc\asmdefs.h)(0x5CCBD30B)()
 F (.\inc\hw_adc.h)(0x5CCBD30B)()
 F (.\inc\hw_aes.h)(0x5CCBD30B)()

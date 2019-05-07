@@ -1,6 +1,6 @@
 #ifndef __MPU6050_H
 #define __MPU6050_H
-#include "main.h"
+#include "Filter.h"
 #include "myiic.h"
 //****************************************
 // MPU6050
@@ -42,6 +42,7 @@
 #define USER_CTRL		  0x6A
 #define INT_PIN_CFG		0x37
 #define MPU_ADRESS		0x68
+
 
 void IMU_Calibration(void);
 void Init_MPU6050(void);
