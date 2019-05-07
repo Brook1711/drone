@@ -1,0 +1,15 @@
+.\objects\myiic.o: USR\myiic.c
+.\objects\myiic.o: USR\myiic.h
+.\objects\myiic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\myiic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\myiic.o: .\driverlib\I2C.h
+.\objects\myiic.o: ..\drone_MK1\inc/hw_i2c.h
+.\objects\myiic.o: ..\drone_MK1\inc/hw_ints.h
+.\objects\myiic.o: ..\drone_MK1\inc/hw_memmap.h
+.\objects\myiic.o: ..\drone_MK1\inc/hw_sysctl.h
+.\objects\myiic.o: ..\drone_MK1\inc/hw_types.h
+.\objects\myiic.o: ..\drone_MK1\driverlib/debug.h
+.\objects\myiic.o: ..\drone_MK1\driverlib/interrupt.h
+.\objects\myiic.o: .\driverlib\gpio.h
+.\objects\myiic.o: .\driverlib\pin_map.h
+.\objects\myiic.o: .\driverlib\sysctl.h

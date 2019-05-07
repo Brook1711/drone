@@ -1,0 +1,9 @@
+.\objects\udma.o: driverlib\udma.c
+.\objects\udma.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\udma.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\udma.o: ..\drone_MK1\inc/hw_sysctl.h
+.\objects\udma.o: ..\drone_MK1\inc/hw_types.h
+.\objects\udma.o: ..\drone_MK1\inc/hw_udma.h
+.\objects\udma.o: ..\drone_MK1\driverlib/debug.h
+.\objects\udma.o: ..\drone_MK1\driverlib/interrupt.h
+.\objects\udma.o: ..\drone_MK1\driverlib/udma.h

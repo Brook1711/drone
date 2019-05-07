@@ -1,0 +1,13 @@
+.\objects\usb.o: driverlib\usb.c
+.\objects\usb.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\usb.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usb.o: ..\drone_MK1\inc/hw_ints.h
+.\objects\usb.o: ..\drone_MK1\inc/hw_memmap.h
+.\objects\usb.o: ..\drone_MK1\inc/hw_types.h
+.\objects\usb.o: ..\drone_MK1\inc/hw_sysctl.h
+.\objects\usb.o: ..\drone_MK1\inc/hw_usb.h
+.\objects\usb.o: ..\drone_MK1\driverlib/debug.h
+.\objects\usb.o: ..\drone_MK1\driverlib/interrupt.h
+.\objects\usb.o: ..\drone_MK1\driverlib/sysctl.h
+.\objects\usb.o: ..\drone_MK1\driverlib/udma.h
+.\objects\usb.o: ..\drone_MK1\driverlib/usb.h

@@ -1,0 +1,16 @@
+.\objects\mpu6050.o: sensorlib\mpu6050.c
+.\objects\mpu6050.o: ..\drone_MK1\sensorlib/mpu6050.h
+.\objects\mpu6050.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpu6050.o: ..\drone_MK1\sensorlib/hw_mpu6050.h
+.\objects\mpu6050.o: ..\drone_MK1\sensorlib/i2cm_drv.h
+.\objects\mpu6050.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\mpu6050.o: ..\drone_MK1\inc/hw_i2c.h
+.\objects\mpu6050.o: ..\drone_MK1\inc/hw_memmap.h
+.\objects\mpu6050.o: ..\drone_MK1\inc/hw_types.h
+.\objects\mpu6050.o: ..\drone_MK1\driverlib/debug.h
+.\objects\mpu6050.o: ..\drone_MK1\driverlib/i2c.h
+.\objects\mpu6050.o: ..\drone_MK1\inc/hw_ints.h
+.\objects\mpu6050.o: ..\drone_MK1\inc/hw_sysctl.h
+.\objects\mpu6050.o: ..\drone_MK1\driverlib/interrupt.h
+.\objects\mpu6050.o: ..\drone_MK1\driverlib/rom.h
+.\objects\mpu6050.o: ..\drone_MK1\driverlib/rom_map.h

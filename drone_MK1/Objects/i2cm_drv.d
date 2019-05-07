@@ -1,0 +1,14 @@
+.\objects\i2cm_drv.o: sensorlib\i2cm_drv.c
+.\objects\i2cm_drv.o: ..\drone_MK1\sensorlib/i2cm_drv.h
+.\objects\i2cm_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\i2cm_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\i2cm_drv.o: ..\drone_MK1\inc/hw_i2c.h
+.\objects\i2cm_drv.o: ..\drone_MK1\inc/hw_memmap.h
+.\objects\i2cm_drv.o: ..\drone_MK1\inc/hw_types.h
+.\objects\i2cm_drv.o: ..\drone_MK1\driverlib/debug.h
+.\objects\i2cm_drv.o: ..\drone_MK1\driverlib/i2c.h
+.\objects\i2cm_drv.o: ..\drone_MK1\inc/hw_ints.h
+.\objects\i2cm_drv.o: ..\drone_MK1\inc/hw_sysctl.h
+.\objects\i2cm_drv.o: ..\drone_MK1\driverlib/interrupt.h
+.\objects\i2cm_drv.o: ..\drone_MK1\driverlib/rom.h
+.\objects\i2cm_drv.o: ..\drone_MK1\driverlib/rom_map.h
